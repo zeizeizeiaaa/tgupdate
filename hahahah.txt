@@ -1,0 +1,13 @@
+  mAdView = new AdView(this);
+            mAdView.setAdSize(AdSize.BANNER);
+            mAdView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+            mAdView.setPadding(0,800,0,0);
+            drawerLayoutContainer.addView(mAdView);
+            FrameLayout.LayoutParams layoutParams =new FrameLayout.LayoutParams(mAdView.getLayoutParams());
+            layoutParams.width=100;
+            layoutParams.height=200;
+            layoutParams.gravity = Gravity.LEFT | Gravity.TOP;
+            layoutParams.topMargin=1500;
+            mAdView.setLayoutParams(layoutParams);
+            AdRequest adRequest = new AdRequest.Builder().addTestDevice("347F82BA6489DA2FF13A14248BEC21B4").build();
+            mAdView.loadAd(adRequest);
