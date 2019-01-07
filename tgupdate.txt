@@ -1,5 +1,5 @@
 {
   versioncode: "1360",
   fileurl: "https://www.telegramcn.org/download/telegramCN_491.apk",
-  des: "UI美化"，
+  des: "UI美化"
 }
