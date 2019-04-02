@@ -1,5 +1,10 @@
 {
-  versioncode: "1359",
-  fileurl: "https://www.telegramcn.org/download/telegramCN_491.apk",
-  des: "UI"
-}
+      versioncode: "1362",
+      fileurl: "https://www.telegramcn.org/download/telegramCN_491.apk",
+      gifimageUrl:"http://yun.tuitiger.com/mami-media/img/ba0fv1fdlz.gif",
+      adurl:"http://engine.tuicoco.com/index/activity?appKey=3udMvGakjU2uX47ft9hNqNnb6PjH&adslotId=270540",
+      Adshowtype:1,
+	isshowDragviewad:true,	
+	splashadurl:"http://engine.tuicoco.com/index/activity?appKey=3udMvGakjU2uX47ft9hNqNnb6PjH&adslotId=272997",
+      des: "UI Update"
+    }
